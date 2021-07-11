@@ -1,58 +1,73 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 
 // or less ideally
-import { Button, FormControl, Container, Form, Card, Accordion, Navbar, Nav, Row,Col} from 'react-bootstrap';
+import { Image, Button, FormControl, Jumbotron, Container, Form, Card, Accordion, Navbar, Nav, Row,Col} from 'react-bootstrap';
+
+
 
 function App() {
   return (
-    <Container>
-      <Navbar bg="primary" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-        </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-light">Search</Button>
-        </Form>
-      </Navbar>
-      <br></br>
 
+      <Row>
         <Row>
-          <Col></Col>
-          <Col>
-            <Card>
-              <Card.Header>
-                <Nav variant="tabs" defaultActiveKey="#first">
-                  <Nav.Item>
-                    <Nav.Link href="#first">Active</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="#link">Link</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="#disabled" disabled>
-                      Disabled
-                    </Nav.Link>
-                  </Nav.Item>
-                </Nav>
-              </Card.Header>
-              <Card.Body>
-                <Card.Title>Special title treatment</Card.Title>
-                <Card.Text>
-                  With supporting text below as a natural lead-in to additional content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
+          <Col xs={1}></Col>
+          <Col xs={7}>
+            <Jumbotron>
+              <h1>Hello, world!</h1>
+              <p>
+                This is a simple hero unit, a simple jumbotron-style component for calling
+                extra attention to featured content or information.
+              </p>
+              <p>
+                <Button variant="primary">Learn more</Button>
+              </p>
+            </Jumbotron>
           </Col>
-          <Col></Col>
+          <Col xs={4}>
+            <Col>
+              <Card>
+                <Card.Header>
+                  <Nav variant="tabs" defaultActiveKey="#first">
+                    <Nav.Item>
+                      <Nav.Link href="#first">Twitter</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link href="#link">Link</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link href="#disabled" disabled>
+                        Disabled
+                      </Nav.Link>
+                    </Nav.Item>
+                  </Nav>
+                </Card.Header>
+                <Card.Body>
+
+                  <Card.Text>
+                    <TwitterTimelineEmbed
+                     sourceType="profile"
+                     screenName="Mason99181010"
+                     options={{height: 400}}
+                    />
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              <br></br>
+            </Col>
+          </Col>
         </Row>
-    </Container>
+
+
+
+
+        <br></br>
+
+
+        <br></br>
+      </Row>
   );
 }
 
