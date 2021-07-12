@@ -13,8 +13,8 @@ function App() {
 
       <Row>
         <Row>
-          <Col xs={1}></Col>
-          <Col xs={7}>
+          <Col xs={3}></Col>
+          <Col xs={5}>
             <Jumbotron>
               <h1>Hello, world!</h1>
               <p>
@@ -50,7 +50,7 @@ function App() {
                     <TwitterTimelineEmbed
                      sourceType="profile"
                      screenName="Mason99181010"
-                     options={{height: 400}}
+                     options={{height: 550}}
                     />
                   </Card.Text>
                 </Card.Body>
