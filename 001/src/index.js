@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import  { Weekly } from './Weekly';
 import Navigate from './Navigate';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,6 +12,8 @@ ReactDOM.render(
     <Navigate />
     <br></br>
     <App />
+    <br></br>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
