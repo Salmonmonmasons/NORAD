@@ -4,7 +4,7 @@ import './App.css';
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 
 // or less ideally
-import { Image, Button, FormControl, Jumbotron, Container, Form, Card, Accordion, Navbar, Nav, Row,Col} from 'react-bootstrap';
+import { Toast, Image, Button, FormControl, Jumbotron, Container, Form, Card, Accordion, Navbar, Nav, Row,Col} from 'react-bootstrap';
 
 
 
@@ -13,7 +13,10 @@ function App() {
 
       <Row>
         <Row>
-          <Col xs={3}></Col>
+          <Col xs={3}>
+
+
+          </Col>
           <Col xs={5}>
             <Jumbotron>
               <h1>Hello, world!</h1>
@@ -25,6 +28,42 @@ function App() {
                 <Button variant="primary">Learn more</Button>
               </p>
             </Jumbotron>
+
+              <Toast>
+                <Toast.Header>
+                  <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
+                  <strong className="mr-auto">MasonLS</strong>
+                  <small>11 mins ago</small>
+                </Toast.Header>
+                <Toast.Body>Hello, world! This is a toast message.</Toast.Body>
+              </Toast>
+
+
+              <Toast>
+                <Toast.Header>
+                  <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
+                  <strong className="mr-auto">MasonLS</strong>
+                  <small>11 mins ago</small>
+                </Toast.Header>
+                <Toast.Body>Hello, world! This is a toast message.</Toast.Body>
+              </Toast>
+
+
+
+              <Toast>
+                <Toast.Header>
+                  <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
+                  <strong className="mr-auto">MasonLS</strong>
+                  <small>11 mins ago</small>
+                </Toast.Header>
+                <Toast.Body>Hello, world! This is a toast message.</Toast.Body>
+              </Toast>
+
+
+
+
+
+
           </Col>
           <Col xs={4}>
             <Col>
