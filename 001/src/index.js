@@ -2,10 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import  { Weekly } from './Weekly';
+import  { Weekly } from './Components/Weekly';
+
+import  { R_Panel } from './Components/R_Panel';
+import  { L_Panel } from './Components/L_Panel';
+import  { Feed } from './Components/Feed';
+
 import Navigate from './Navigate';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +22,8 @@ ReactDOM.render(
     <br></br>
     <App />
     <br></br>
+    <R_Panel />
+
 
   </React.StrictMode>,
   document.getElementById('root')
