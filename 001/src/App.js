@@ -1,12 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
+import ReactDOM from 'react-dom';
 import  { Weekly } from './Components/Weekly';
-
 import  { R_Panel } from './Components/R_Panel';
 import  { L_Panel } from './Components/L_Panel';
 import  { Feed } from './Components/Feed';
 
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
