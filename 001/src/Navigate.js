@@ -7,7 +7,7 @@ import { Button, FormControl, Container, Form, Card, Accordion, Navbar, Nav, Row
 function Navigate() {
   return (
 
-    <Navbar bg="success" variant="dark" sticky="top" >
+    <Navbar bg="dark" variant="dark" sticky="top" width="100%">
       <Navbar.Brand href="#home">MasonLS</Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="#home">Resume</Nav.Link>

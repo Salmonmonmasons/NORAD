@@ -467,15 +467,12 @@ export class Feed extends Component{
 
                    <div class="text-center">
                      <button type="button" class="btn btn-primary">Submit</button>
-               </div>
+                   </div>
                  </div>
                </div>
              </div>
            </div>
-           </div>
-
-
-
+          </div>
       </body>
     );
 

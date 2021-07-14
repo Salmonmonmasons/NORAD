@@ -15,24 +15,27 @@ export class L_Panel extends Component{
   render(){
     return(
       <body>
-       <main role="main" >
+       <main role="main" className=" position-fixed" >
          <Col>
-           <Card class="container">
+          <Card>
+            <Card.Header>
 
-               <img src="BG_image.jpg" alt="" width="100%" height="5%" />
+            </Card.Header>
+            <Card.Body>
+               <img src="ProPic.jpeg" alt="" width="250px" height="250px" class="rounded-circle " />
                <div class="">
-                 <h5 class="card-title">Card title</h5>
-                 <p class="card-text">This is a wider card </p>
-                 <p class="card-text">Last updated 3 mins ago</p>
+                 <br/>
+                 <p class="text-center">Information Technology Engineer</p>
+                 <p class="text-center">Pigler Automation, LLC</p>
+
+
                </div>
 
-           </Card>
-           <br></br>
+            </Card.Body>
+          </Card>
          </Col>
-       </main>
-     </body>
-
-
+        </main>
+      </body>
     );
 
   }

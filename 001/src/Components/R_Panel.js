@@ -17,7 +17,7 @@ export class R_Panel extends Component{
   render(){
     return(
       <body>
-       <main role="main" class="container, position-fixed" >
+       <main role="main" className="container, position-fixed" >
          <Col>
            <Card>
              <Card.Header>

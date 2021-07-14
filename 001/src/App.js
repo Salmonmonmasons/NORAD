@@ -22,10 +22,10 @@ import Forms from 'react-bootstrap';
 function App() {
   return (
         <Row>
-          <Col class="container" xs={3}>
+          <Col className="container" xs={3}>
             <L_Panel />
           </Col>
-          <Col class="container" xs={5}>
+          <Col class="container" xs={6} >
             <Feed />
           </Col>
           <Col class="container" xs={3}>
