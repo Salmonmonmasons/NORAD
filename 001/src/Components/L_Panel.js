@@ -10,41 +10,22 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Toast, Image, Button, FormControl, Jumbotron, Container, Form, Card, Accordion, Navbar, Nav, Row,Col} from 'react-bootstrap';
 import Forms from 'react-bootstrap';
 
-
 export class L_Panel extends Component{
 
   render(){
     return(
-
       <body>
-       <main role="main" class="container, position-fixed" >
+       <main role="main" >
          <Col>
-           <Card>
-             <Card.Header>
-               <Nav variant="tabs" defaultActiveKey="#first">
-                 <Nav.Item>
-                   <Nav.Link href="#first">Twitter</Nav.Link>
-                 </Nav.Item>
-                 <Nav.Item>
-                   <Nav.Link href="#link">Link</Nav.Link>
-                 </Nav.Item>
-                 <Nav.Item>
-                   <Nav.Link href="#disabled" disabled>
-                     Disabled
-                   </Nav.Link>
-                 </Nav.Item>
-               </Nav>
-             </Card.Header>
-             <Card.Body>
+           <Card class="container">
 
-               <Card.Text>
-                 <TwitterTimelineEmbed
-                  sourceType="profile"
-                  screenName="Mason99181010"
-                  options={{height: 550}}
-                 />
-               </Card.Text>
-             </Card.Body>
+               <img src="BG_image.jpg" alt="" width="100%" height="5%" />
+               <div class="">
+                 <h5 class="card-title">Card title</h5>
+                 <p class="card-text">This is a wider card </p>
+                 <p class="card-text">Last updated 3 mins ago</p>
+               </div>
+
            </Card>
            <br></br>
          </Col>

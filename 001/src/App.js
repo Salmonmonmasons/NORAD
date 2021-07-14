@@ -21,20 +21,18 @@ import Forms from 'react-bootstrap';
 
 function App() {
   return (
-
-      <Row>
         <Row>
-          <Col xs={3}>
+          <Col class="container" xs={3}>
             <L_Panel />
           </Col>
-          <Col xs={5}>
+          <Col class="container" xs={5}>
             <Feed />
           </Col>
-          <Col xs={4}>
+          <Col class="container" xs={3}>
             <R_Panel />
           </Col>
         </Row>
-      </Row>
+
   );
 }
 

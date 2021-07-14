@@ -16,42 +16,40 @@ export class R_Panel extends Component{
 
   render(){
     return(
+      <body>
+       <main role="main" class="container, position-fixed" >
+         <Col>
+           <Card>
+             <Card.Header>
+               <Nav variant="tabs" defaultActiveKey="#first">
+                 <Nav.Item>
+                   <Nav.Link href="#first">Twitter</Nav.Link>
+                 </Nav.Item>
+                 <Nav.Item>
+                   <Nav.Link href="#link">Link</Nav.Link>
+                 </Nav.Item>
+                 <Nav.Item>
+                   <Nav.Link href="#disabled" disabled>
+                     Disabled
+                   </Nav.Link>
+                 </Nav.Item>
+               </Nav>
+             </Card.Header>
+             <Card.Body>
 
-       <body>
-        <main role="main" class="container, position-fixed">
-          <Col>
-            <Card>
-              <Card.Header>
-                <Nav variant="tabs" defaultActiveKey="#first">
-                  <Nav.Item>
-                    <Nav.Link href="#first">Twitter</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="#link">Link</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="#disabled" disabled>
-                      Disabled
-                    </Nav.Link>
-                  </Nav.Item>
-                </Nav>
-              </Card.Header>
-              <Card.Body>
-
-                <Card.Text>
-                  <TwitterTimelineEmbed
-                   sourceType="profile"
-                   screenName="Mason99181010"
-                   options={{height: 550}}
-                  />
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <br></br>
-          </Col>
-        </main>
-      </body>
+               <Card.Text>
+                 <TwitterTimelineEmbed
+                  sourceType="profile"
+                  screenName="Mason99181010"
+                  options={{height: 550}}
+                 />
+               </Card.Text>
+             </Card.Body>
+           </Card>
+           <br></br>
+         </Col>
+       </main>
+     </body>
     );
-
   }
 }
