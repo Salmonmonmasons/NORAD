@@ -22,7 +22,7 @@ function App() {
   return (
 
 
-    <div class=" container px-4 justify-content-center " id="featured-3">
+    <div class=" container px-4 justify-content-center  bg-dark bg-gradient" id="featured-3">
 
         <div class="row g-6 row-cols-1 row-cols-lg-3 align-center">
           <div class="feature col">

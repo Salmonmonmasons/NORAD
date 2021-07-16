@@ -37,19 +37,10 @@ export class L_Panel extends Component{
               <Col class="align-items-center">
                 <Card class="align-items-center">
                   <Card.Header>
-                    <Nav variant="tabs" defaultActiveKey="#first">
-                      <Nav.Item>
-                        <Nav.Link href="#first">Twitter</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link href="#disabled" disabled>
-                          Disabled
-                        </Nav.Link>
-                      </Nav.Item>
-                    </Nav>
+                    <div class="text-center">
+                      <h3 class="fw-light">Mason L. Salmon</h3>
+                    </div>
+
                   </Card.Header>
                   <Card.Body>
 

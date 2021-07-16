@@ -12,9 +12,9 @@ export class Navigate extends Component{
         <Navbar.Brand href="#home">MasonLS</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">Resume</Nav.Link>
-          <Nav.Link href="#features">Linkedin</Nav.Link>
-          <Nav.Link href="#pricing">Github</Nav.Link>
-          <Nav.Link href="#pricing">Contact</Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/in/mason-salmon-5781b3159/">Linkedin</Nav.Link>
+          <Nav.Link href="https://github.com/Salmonmonmasons">Github</Nav.Link>
+          <Nav.Link href="mailto:masa8532@colorado.edu">Contact</Nav.Link>
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
