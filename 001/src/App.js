@@ -20,17 +20,47 @@ import Forms from 'react-bootstrap';
 
 function App() {
   return (
-        <Row>
-          <Col className="container" xs={3}>
-            <L_Panel />
-          </Col>
-          <Col class="container" xs={6} >
+
+
+    <div class=" container px-4 justify-content-center " id="featured-3">
+
+        <div class="row g-6 row-cols-1 row-cols-lg-3 align-center">
+          <div class="feature col">
+             <L_Panel />
+          </div>
+          <div class="feature col">
             <Feed />
-          </Col>
-          <Col class="container" xs={3}>
+          </div>
+          <div class="feature col">
             <R_Panel />
-          </Col>
-        </Row>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    //
+    //
+    // <div class="row">
+    //   <div class="row row-cols-1 row-cols-auto justify-content-center ">
+    //     <div class=" col-2 ">
+    //       <L_Panel />
+    //     </div>
+    //     <div class="col-7">
+    //       <Feed />
+    //     </div>
+    //     <div class="col-2">
+    //       <R_Panel />
+    //     </div>
+    //   </div>
+    // </div>
+
+
 
   );
 }

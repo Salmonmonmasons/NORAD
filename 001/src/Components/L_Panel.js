@@ -14,28 +14,59 @@ export class L_Panel extends Component{
 
   render(){
     return(
-      <body>
-       <main role="main" className=" position-fixed" >
-         <Col>
-          <Card>
-            <Card.Header>
+      // <body class="text-center">
+      //   <main role="main" className="container, position-fixed" >
+      //     <div class="card mb-3">
+      //       // <img src="..." class="card-img-top" alt="...">
+      //       <div class="card-body">
+      //         // <img src="ProPic.jpeg" alt="" width="250px" height="250px" class="rounded-circle "></img>
+      //         <div class="">
+      //           <br/>
+      //           <p class="text-center">Information Technology Engineer</p>
+      //           <p class="text-center">Pigler Automation, LLC</p>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </main>
+      // </body>
+      //
+      //
 
-            </Card.Header>
-            <Card.Body>
-               <img src="ProPic.jpeg" alt="" width="250px" height="250px" class="rounded-circle " />
-               <div class="">
-                 <br/>
-                 <p class="text-center">Information Technology Engineer</p>
-                 <p class="text-center">Pigler Automation, LLC</p>
+            <body class="align-items-center">
+             <main role="main" className="container, position-fixed" >
+              <Col class="align-items-center">
+                <Card class="align-items-center">
+                  <Card.Header>
+                    <Nav variant="tabs" defaultActiveKey="#first">
+                      <Nav.Item>
+                        <Nav.Link href="#first">Twitter</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link href="#link">Link</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link href="#disabled" disabled>
+                          Disabled
+                        </Nav.Link>
+                      </Nav.Item>
+                    </Nav>
+                  </Card.Header>
+                  <Card.Body>
 
+                    <Card.Text>
 
-               </div>
-
-            </Card.Body>
-          </Card>
-         </Col>
-        </main>
-      </body>
+                      <img src="ProPic.jpeg" alt="" width="250px" height="250px" class="rounded-circle " />
+                      <div class="">
+                        <br/>
+                        <p class="text-center">Information Technology Engineer</p>
+                        <p class="text-center">Pigler Automation, LLC</p>
+                      </div>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              </main>
+            </body>
     );
 
   }
