@@ -17,7 +17,7 @@ export class Feed extends Component{
   render(){
     return(
 
-       <body class="bg-dark bg-gradient">
+       <body class="">
          <Jumbotron>
            <h1>Hello, world!</h1>
            <p>

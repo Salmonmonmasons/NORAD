@@ -55,8 +55,17 @@ export class L_Panel extends Component{
                     </Card.Text>
                   </Card.Body>
                 </Card>
-              </Col>
-              </main>
+                <Card class="align-items-center">
+                  <Card.Text>
+                    <div class="">
+                      <br/>
+                      <p class="text-center">Information Technology Engineer</p>
+                      <p class="text-center">Pigler Automation, LLC</p>
+                    </div>
+                  </Card.Text>
+                </Card>
+               </Col>
+               </main>
             </body>
     );
 

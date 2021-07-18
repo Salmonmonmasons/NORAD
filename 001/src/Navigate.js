@@ -8,7 +8,7 @@ export class Navigate extends Component{
   render(){
     return (
 
-      <Navbar bg="dark" variant="dark" sticky="top" width="100%">
+      <Navbar bg="primary" variant="dark" sticky="top" width="100%">
         <Navbar.Brand href="#home">MasonLS</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">Resume</Nav.Link>
