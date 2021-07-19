@@ -52,18 +52,22 @@ export class L_Panel extends Component{
                         <p class="text-center">Information Technology Engineer</p>
                         <p class="text-center">Pigler Automation, LLC</p>
                       </div>
+
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">🎯 Web Dev: React.js, HTML, CSS</li>
+                        <li class="list-group-item">💻 Programing: Python, C, C#, C++</li>
+                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item">A fourth item</li>
+                        <li class="list-group-item">And a fifth one</li>
+                      </ul>
+
+
+
+
                     </Card.Text>
                   </Card.Body>
                 </Card>
-                <Card class="align-items-center">
-                  <Card.Text>
-                    <div class="">
-                      <br/>
-                      <p class="text-center">Information Technology Engineer</p>
-                      <p class="text-center">Pigler Automation, LLC</p>
-                    </div>
-                  </Card.Text>
-                </Card>
+
                </Col>
                </main>
             </body>
