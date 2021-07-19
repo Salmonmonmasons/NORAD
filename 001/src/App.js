@@ -49,7 +49,7 @@ function App() {
 
             </div>
             <div class="feature col">
-              <L_Panel />
+              <R_Panel />
             </div>
           </div>
         </div>
