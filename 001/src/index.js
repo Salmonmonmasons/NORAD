@@ -24,7 +24,7 @@ ReactDOM.render(
     <br></br>
     <App />
     <br></br>
-    <R_Panel />
+    
 
 
   </React.StrictMode>,

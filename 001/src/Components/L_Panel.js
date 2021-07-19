@@ -14,28 +14,11 @@ export class L_Panel extends Component{
 
   render(){
     return(
-      // <body class="text-center">
-      //   <main role="main" className="container, position-fixed" >
-      //     <div class="card mb-3">
-      //       // <img src="..." class="card-img-top" alt="...">
-      //       <div class="card-body">
-      //         // <img src="ProPic.jpeg" alt="" width="250px" height="250px" class="rounded-circle "></img>
-      //         <div class="">
-      //           <br/>
-      //           <p class="text-center">Information Technology Engineer</p>
-      //           <p class="text-center">Pigler Automation, LLC</p>
-      //         </div>
-      //       </div>
-      //     </div>
-      //   </main>
-      // </body>
-      //
-      //
 
-            <body class="align-items-center">
-             <main role="main" className="container, position-fixed" >
-              <Col class="align-items-center">
-                <Card class="align-items-center">
+            <body class="  flex-row-reverse align-items-center">
+             <main role="main" class=" container, position-fixed" >
+              <div class=" align-items-center">
+                <Card class=" align-items-center">
                   <Card.Header>
                     <div class="text-center">
                       <h3 class="fw-light">Mason L. Salmon</h3>
@@ -44,20 +27,20 @@ export class L_Panel extends Component{
                   </Card.Header>
                   <Card.Body>
 
-                    <Card.Text>
+                  <Card.Text>
 
-                      <img src="ProPic.jpeg" alt="" width="250px" height="250px" class="rounded-circle " />
-                      <div class="">
-                        <br/>
-                        <p class="text-center">Information Technology Engineer</p>
-                        <p class="text-center">Pigler Automation, LLC</p>
-                      </div>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              </main>
-            </body>
+                    <img src="ProPic.jpeg" alt="" width="250px" height="250px" class="rounded-circle " />
+                    <div class="">
+                      <br/>
+                      <p class="text-center">Information Technology Engineer</p>
+                      <p class="text-center">Pigler Automation, LLC</p>
+                    </div>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+            </main>
+          </body>
     );
 
   }
