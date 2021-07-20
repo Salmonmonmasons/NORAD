@@ -23,7 +23,8 @@ export class R_Panel extends Component{
              <Card.Header>
                <Nav variant="tabs" defaultActiveKey="#first">
                  <Nav.Item>
-                   <Nav.Link href="#first">Twitter</Nav.Link>
+                   <br/>
+                   <Nav.Link href="#first" class="fa fa-twitter"></Nav.Link>
                  </Nav.Item>
                  <Nav.Item>
                    <Nav.Link href="#link">Link</Nav.Link>
