@@ -14,41 +14,36 @@ export class L_Panel extends Component{
 
   render(){
     return(
-
-            <body class="  flex-row-reverse align-items-center">
-             <main role="main" class=" container, position-fixed" >
-              <div class=" align-items-center">
-                <Card class=" align-items-center">
-                  <Card.Header>
-                    <div class="text-center">
-                      <h3 class="fw-light">Mason L. Salmon</h3>
-                    </div>
-
-                  </Card.Header>
-                  <Card.Body>
-
-                    <Card.Text>
-
-                      <img src="ProPic.jpeg" alt="" width="250px" height="250px" class="rounded-circle " />
-                      <div class="">
-                        <br/>
-                        <p class="text-center">Information Technology Engineer</p>
-                        <p class="text-center">Pigler Automation, LLC</p>
-                      </div>
-
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">🎯 Web Dev: React.js, HTML, CSS</li>
-                        <li class="list-group-item">💻 Programing: Python, C, C#, C++</li>
-                        <li class="list-group-item">A third item</li>
-                        <li class="list-group-item">A fourth item</li>
-                        <li class="list-group-item">And a fifth one</li>
-                      </ul>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </div>
-           </main>
-        </body>
+      <body class="  flex-row-reverse align-items-center">
+        <main role="main" class=" container, position-fixed" >
+          <div class=" align-items-center">
+            <Card class=" align-items-center">
+              <Card.Header>
+                <div class="text-center">
+                  <h3 class="fw-light">Mason L. Salmon</h3>
+                </div>
+              </Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  <img src="ProPic.jpeg" alt="" width="250px" height="250px" class="rounded-circle " />
+                  <div class="">
+                    <br/>
+                    <p class="text-center">Information Technology Engineer</p>
+                    <p class="text-center">Pigler Automation, LLC</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">🎯 Web Dev: React.js, HTML, CSS</li>
+                    <li class="list-group-item">💻 Programing: Python, C, C#, C++</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+       </main>
+    </body>
     );
 
   }

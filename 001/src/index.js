@@ -21,10 +21,9 @@ ReactDOM.render(
 
   <React.StrictMode class="">
     <Navigate />
-    <br></br>
     <App />
     <br></br>
-    
+
 
 
   </React.StrictMode>,
