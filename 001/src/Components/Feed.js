@@ -21,8 +21,8 @@ export class Feed extends Component{
          <Jumbotron>
            <h1>Hello, world!</h1>
            <p>
-             This is a simple hero unit, a simple jumbotron-style component for calling
-             extra attention to featured content or information.
+             My name is Mason L. Salmon I am a Software/IT Engineer. I graduated from the University Of Colorado with a Bachelors Degree in Computer Science.
+             I currently Live in Boulder Colorado.
            </p>
            <p>
              <Button variant="primary">Learn more</Button>

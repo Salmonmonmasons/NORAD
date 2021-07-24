@@ -10,6 +10,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Toast, Image, Button, FormControl, Jumbotron, Container, Form, Card, Accordion, Navbar, Nav, Row,Col} from 'react-bootstrap';
 import Forms from 'react-bootstrap';
 
+
+
+
 export class L_Panel extends Component{
 
   render(){
@@ -32,11 +35,15 @@ export class L_Panel extends Component{
                     <p class="text-center">Pigler Automation, LLC</p>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item">🎯 Web Dev: React.js, HTML, CSS</li>
-                    <li class="list-group-item">💻 Programing: Python, C, C#, C++</li>
-                    <li class="list-group-item">A third item</li>
-                    <li class="list-group-item">A fourth item</li>
-                    <li class="list-group-item">And a fifth one</li>
+                    <li class="list-group-item"> 🎯 <strong>Web Dev:</strong> React.js, HTML, CSS</li>
+                    <li class="list-group-item">Bootstrap, npm Package Development</li>
+
+
+
+                    <li class="list-group-item">💻 <strong>Programing:</strong> Python, C, C#, C++</li>
+                    <li class="list-group-item">🔌 <strong>IT:</strong> AWS, Vmware, Salesforce</li>
+
+
                   </ul>
                 </Card.Text>
               </Card.Body>
@@ -45,6 +52,8 @@ export class L_Panel extends Component{
        </main>
     </body>
     );
+
+
 
   }
 }

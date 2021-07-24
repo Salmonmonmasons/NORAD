@@ -20,24 +20,8 @@ export class R_Panel extends Component{
        <main role="main" className="container, position-fixed" >
          <Col>
            <Card>
-             <Card.Header>
-               <Nav variant="tabs" defaultActiveKey="#first">
-                 <Nav.Item>
-                   <Nav.Link href="#first">Twitter</Nav.Link>
-                 </Nav.Item>
-                 <Nav.Item>
-                   <Nav.Link href="#second">Facebook</Nav.Link>
-                 </Nav.Item>
-                 
-                 <Nav.Item>
-                   <Nav.Link href="#disabled" disabled>
-                     Disabled
-                   </Nav.Link>
-                 </Nav.Item>
-               </Nav>
-             </Card.Header>
+             
              <Card.Body>
-
                <Card.Text>
                  <TwitterTimelineEmbed
                   sourceType="profile"

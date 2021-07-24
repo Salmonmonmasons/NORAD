@@ -19,6 +19,8 @@ import Forms from 'react-bootstrap';
 
 
 function App() {
+
+
   return (
 
 
@@ -30,6 +32,7 @@ function App() {
           </div>
           <div class="feature col">
             <Feed />
+            <div id="feed"></div>
           </div>
           <div class="feature col">
             <R_Panel />
