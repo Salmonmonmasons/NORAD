@@ -20,17 +20,57 @@ export class R_Panel extends Component{
        <main role="main" className="container, position-fixed" >
          <Col>
            <Card>
-             
+             <Card.Header>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                 <li class="nav-item" role="presentation">
+                   <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Twitter</button>
+                 </li>
+                 <li class="nav-item" role="presentation">
+                   <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Facebook</button>
+                 </li>
+                 <li class="nav-item" role="presentation">
+                   <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Linkedin</button>
+                 </li>
+               </ul>
+             </Card.Header>
              <Card.Body>
                <Card.Text>
-                 <TwitterTimelineEmbed
-                  sourceType="profile"
-                  screenName="Mason99181010"
-                  options={{height: 550}}
-                 />
+                 <div class="tab-content" id="myTabContent">
+                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                     <div class="tab-pane active" id="first" role="rabpanel">
+                       <TwitterTimelineEmbed
+                        sourceType="profile"
+                        screenName="Mason99181010"
+                        options={{height: 550}}
+                       />
+                     </div>
+                   </div>
+                   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">T2</div>
+                   <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">T3</div>
+                 </div>
+
+
+
+
+
+
+
+
                </Card.Text>
              </Card.Body>
            </Card>
+
+
+
+
+
+
+
+
+
+
+
+
            <br></br>
          </Col>
        </main>
