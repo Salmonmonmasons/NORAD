@@ -36,7 +36,7 @@ export class L_Panel extends Component{
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item"> 🎯 <strong>Web Dev:</strong> React.js, HTML, CSS</li>
-                    <li class="list-group-item">Bootstrap, npm Package Development</li>
+                    <li class="list-group-item">Bootstrap, npm Dev, GitHub</li>
 
 
 
