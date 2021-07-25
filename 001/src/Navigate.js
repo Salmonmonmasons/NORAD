@@ -2,57 +2,36 @@ import logo from './logo.svg';
 
 import React, { Component } from 'react';
 // or less ideally
+
 import { Button, FormControl, Container, Form, Card, Accordion, Navbar, Nav, Row,Col} from 'react-bootstrap';
 
 export class Navigate extends Component{
   render(){
     return (
 
-      <Navbar bg="primary" variant="dark" sticky="top" width="100%">
-        <Navbar.Brand href="#home">MasonLS</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Resume</Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/in/mason-salmon-5781b3159/">Linkedin</Nav.Link>
-          <Nav.Link href="https://github.com/Salmonmonmasons">Github</Nav.Link>
-          <Nav.Link href="mailto:masa8532@colorado.edu">Contact</Nav.Link>
-        </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-light">Search</Button>
-        </Form>
-      </Navbar>
+      <header class="site-header sticky-top py-1 bg-white">
+        <nav class="container d-flex flex-column flex-md-row justify-content-between">
 
-      // <nav class="navbar navbar-expand-lg  navbar-light bg-primary">
-      //     <div class="container-fluid">
-      //
-      //       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      //         <span class="navbar-toggler-icon"></span>
-      //       </button>
-      //       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      //         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      //
-      //
-      //           <li class="nav-item dropdown">
-      //           <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      //              Helpful Link
-      //           </a>
-      //             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-      //               <li><a class="dropdown-item" href="https://www.Piglerautomation.com/" target="_blank">Pigler Automation Website</a></li>
-      //               <li><a class="dropdown-item" href="https:192.168.5.254" target="_blank">Palo Alto Skyway</a></li>
-      //               <li><a class="dropdown-item" href="https:192.168.1.254" target="_blank">Palo Alto Main</a></li>
-      //               <li><a class="dropdown-item" href="https:192.168.20.254" target="_blank">Palo Alto Main(Need Global Protect)</a></li>
-      //               <li><a class="dropdown-item" href="https:192.168.2.254" target="_blank">Palo Alto Steamboat</a></li>
-      //
-      //             </ul>
-      //           </li>
-      //         </ul>
-      //         <form class="d-flex">
-      //           <a class="navbar-brand text-white" href="#">PA Internal Tools</a>
-      //         </form>
-      //       </div>
-      //     </div>
-      // </nav>
+          <a class="py-2 d-none d-md-inline-block" href="#home">Resume</a>
+          <a class="py-2 d-none d-md-inline-block" href="https://www.linkedin.com/in/mason-salmon-5781b3159/">Linkedin</a>
+          <a class="py-2 d-none d-md-inline-block" href="https://github.com/Salmonmonmasons">Github</a>
+          <a class="py-2 d-none d-md-inline-block" href="mailto:masa8532@colorado.edu">Contact</a>
 
+        </nav>
+      </header>
+
+      // <a class="py-2" href="#" aria-label="Product">
+      //   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+      // </a>
+      // <Navbar class="containter-sm" bg="primary" variant="dark" sticky="top" width="100%">
+      //   <Navbar.Brand class="center"  href="#home">MasonLS</Navbar.Brand>
+      //   <Nav >
+      //     <Nav.Link href="#home">Resume</Nav.Link>
+      //     <Nav.Link href="https://www.linkedin.com/in/mason-salmon-5781b3159/">Linkedin</Nav.Link>
+      //     <Nav.Link href="https://github.com/Salmonmonmasons">Github</Nav.Link>
+      //     <Nav.Link href="mailto:masa8532@colorado.edu">Contact</Nav.Link>
+      //   </Nav>
+      // </Navbar>
     );
   }
 }

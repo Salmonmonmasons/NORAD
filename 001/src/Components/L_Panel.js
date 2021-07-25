@@ -28,7 +28,7 @@ export class L_Panel extends Component{
               </Card.Header>
               <Card.Body>
                 <Card.Text>
-                  <img src="ProPic.jpeg" alt="" width="250px" height="250px" class="rounded-circle " />
+                  <img src="ProPic.jpeg" alt="" width="250px" height="250px" class="rounded-circle mx-auto d-block" />
                   <div class="">
                     <br/>
                     <p class="text-center">Information Technology Engineer</p>
