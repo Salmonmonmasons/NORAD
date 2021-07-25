@@ -9,13 +9,13 @@ export class Navigate extends Component{
   render(){
     return (
 
-      <header class="site-header sticky-top py-1 bg-white">
+      <header class="site-header sticky-top py-1 bg-primary">
         <nav class="container d-flex flex-column flex-md-row justify-content-between">
-
-          <a class="py-2 d-none d-md-inline-block" href="#home">Resume</a>
-          <a class="py-2 d-none d-md-inline-block" href="https://www.linkedin.com/in/mason-salmon-5781b3159/">Linkedin</a>
-          <a class="py-2 d-none d-md-inline-block" href="https://github.com/Salmonmonmasons">Github</a>
-          <a class="py-2 d-none d-md-inline-block" href="mailto:masa8532@colorado.edu">Contact</a>
+          <a class="py-2 d-none d-md-inline-block text-white"> Masonls</a>
+          <a class="py-2 d-none d-md-inline-block text-white" href="#home">Resume</a>
+          <a class="py-2 d-none d-md-inline-block text-white" href="https://www.linkedin.com/in/mason-salmon-5781b3159/">Linkedin</a>
+          <a class="py-2 d-none d-md-inline-block text-white" href="https://github.com/Salmonmonmasons">Github</a>
+          <a class="py-2 d-none d-md-inline-block text-white" href="mailto:masa8532@colorado.edu">Contact</a>
 
         </nav>
       </header>
