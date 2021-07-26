@@ -22,19 +22,36 @@ function App() {
 
 
   return (
+    // <div>
+    //   <Container>
+    //     <Row>
+    //       <Col >
+    //         <L_Panel />
+    //       </Col>
+    //       <Col >
+    //         <Feed />
+    //       </Col>
+    //       <Col >
+    //         <R_Panel />
+    //       </Col>
+    //     </Row>
+    //   </Container>
+    // </div>
+    //
 
 
-    <div class=" container px-4 justify-content-center  py-4" id="featured-3">
 
-        <div class="row g-6 row-cols-1 row-cols-lg-3 align-center">
-          <div class="feature col">
+
+
+    <div class=" container  py-4" >
+        <div class="row  align-center">
+          <div class="col-sm">
              <L_Panel />
           </div>
-          <div class="feature col">
+          <div class="col-sm">
             <Feed />
-            <div id="feed"></div>
           </div>
-          <div class="feature col">
+          <div class="col-sm">
             <R_Panel />
           </div>
         </div>

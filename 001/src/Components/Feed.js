@@ -17,9 +17,9 @@ export class Feed extends Component{
   render(){
     return(
 
-       <body class="">
+       <body class="container">
          <Jumbotron>
-           <h1>Hello, world!</h1>
+           <h1>npm start!</h1>
            <p>
              My name is Mason L. Salmon I am a Software/IT Engineer. I graduated from the University Of Colorado with a Bachelors Degree in Computer Science.
              I currently Live in Boulder Colorado.
@@ -64,7 +64,7 @@ export class Feed extends Component{
 
 {/*       Initium Health*/}
          <Toast>
-           <Toast.Header>
+           <Toast.Header fluid>
              <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
              <strong className="mr-auto">MasonLS</strong>
              <small>Aug. 2019 - Jan. 2020</small>
@@ -84,10 +84,10 @@ export class Feed extends Component{
                <div class="row g-0">
                  <div class="col-md-12">
                    <ul>
-                     <li>Managed the Company website(HTML, CSS, Wordpress)</li>
-                     <li>Develop internal tools For Engineers/Staff, (React.js, HTML, CSS)</li>
-                     <li>Monitor IT Infrastructure and Day To Day Operations</li>
-                     <li>Support Company troubleshoot With IT issues</li>
+                     <li>Giving Technical guidance to the company</li>
+                     <li>AWS mobile app architecture design</li>
+                     <li>Website Review</li>
+                     <li>Product role-out: https://www.eohealth.org/</li>
                    </ul>
                   </div>
                </div>
@@ -117,10 +117,10 @@ export class Feed extends Component{
                <div class="row g-0">
                  <div class="col-md-12">
                    <ul>
-                     <li>Managed the Company website(HTML, CSS, Wordpress)</li>
-                     <li>Develop internal tools For Engineers/Staff, (React.js, HTML, CSS)</li>
-                     <li>Monitor IT Infrastructure and Day To Day Operations</li>
-                     <li>Support Company troubleshoot With IT issues</li>
+                     <li>Assisting The NonprofitCenter Network with its DataBase Migration.</li>
+                     <li>Update most recent Information in the System, Before the migration begins.</li>
+                     <li>Assist my team in a quick orderly fashion, problem solving, and troubleshooting Issues.</li>
+                     <li>Maintain the integrity of The Networks sensitive and critical Data.</li>
                    </ul>
                   </div>
                </div>
@@ -150,12 +150,20 @@ export class Feed extends Component{
                <div class="row g-0">
                  <div class="col-md-12">
                    <ul>
-                     <li>Managed the Company website(HTML, CSS, Wordpress)</li>
-                     <li>Develop internal tools For Engineers/Staff, (React.js, HTML, CSS)</li>
-                     <li>Monitor IT Infrastructure and Day To Day Operations</li>
-                     <li>Support Company troubleshoot With IT issues</li>
+                     <li><strong>Course Assistant in CSCI 1300 :</strong> Introduction to Programming C++/Python
+                     Helping students understand the basic building blocks of Software Development
+                     and Programming(touching on topics such as Data Structors and Algorithms). Troubleshooting
+                      Software issues with students to help them develop a programmatic style of thinking.</li>
+                      <br></br>
+                      <li><strong>Lead software developer :</strong> Built software to test for hearing loss amongst young children
+                      Comprehend Doctoral Paper and develop theoretical software in C#. net, to be tested on subjects.
+                      Communicate with laboratory doctor regularly to work out kinks, and make sure project is being built-out to her specific specifications.
+                      Adapting to any changes made by laboratory doctor in the software during the development process.</li>
+
                    </ul>
                   </div>
+
+
                </div>
              </div>
            </Toast.Body>
@@ -183,10 +191,10 @@ export class Feed extends Component{
                <div class="row g-0">
                  <div class="col-md-12">
                    <ul>
-                     <li>Managed the Company website(HTML, CSS, Wordpress)</li>
-                     <li>Develop internal tools For Engineers/Staff, (React.js, HTML, CSS)</li>
-                     <li>Monitor IT Infrastructure and Day To Day Operations</li>
-                     <li>Support Company troubleshoot With IT issues</li>
+                     <li>Agile Development in C#.net</li>
+                     <li>Working with mentors to Develop Production ready Software to deliver to customers</li>
+                     <li>Process Monitoring</li>
+
                    </ul>
                   </div>
                </div>
@@ -198,7 +206,7 @@ export class Feed extends Component{
         <Toast>
           <Toast.Header>
             <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
-            <strong className="mr-auto">MasonLS</strong>
+            <strong className="mr-auto">MasonLS 🦬</strong>
             <small>Graduated 🎓</small>
           </Toast.Header>
           <Toast.Body>
@@ -251,10 +259,11 @@ export class Feed extends Component{
               <div class="row g-0">
                 <div class="col-md-12">
                   <ul>
-                    <li>Managed the Company website(HTML, CSS, Wordpress)</li>
-                    <li>Develop internal tools For Engineers/Staff, (React.js, HTML, CSS)</li>
-                    <li>Monitor IT Infrastructure and Day To Day Operations</li>
-                    <li>Support Company troubleshoot With IT issues</li>
+                    <li>When attending Lansing Community College I grasped the fundamental knowledge of Programming.
+                     I took classes in C++, C#, Python, and the basics of Web Development. The course work had an emphasis
+                      in Object oriented programming and Data-Structures.
+                    </li>
+
                   </ul>
                  </div>
               </div>
@@ -262,24 +271,7 @@ export class Feed extends Component{
           </Toast.Body>
         </Toast>
          <br></br>
-         <div class="jumbotron">
 
-         </div>
-         <div class="jumbotron">
-
-         </div>
-         <div class="jumbotron">
-
-         </div>
-         <div class="jumbotron">
-
-         </div>
-         <div class="jumbotron">
-
-         </div>
-         <div class="jumbotron">
-
-         </div>
       </body>
     );
 

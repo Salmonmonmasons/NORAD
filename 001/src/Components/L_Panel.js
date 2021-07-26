@@ -17,9 +17,8 @@ export class L_Panel extends Component{
 
   render(){
     return(
-      <body class="  flex-row-reverse align-items-center">
-        <main role="main" class=" container, position-fixed" >
-          <div class=" align-items-center">
+      <body class="align-items-center">
+        <main role="main" class="  position-fixed" >
             <Card class=" align-items-center">
               <Card.Header>
                 <div class="text-center">
@@ -35,8 +34,8 @@ export class L_Panel extends Component{
                     <p class="text-center">Pigler Automation, LLC</p>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item"> 🎯 <strong>Web Dev:</strong> React.js, HTML, CSS</li>
-                    <li class="list-group-item">Bootstrap, npm Dev, GitHub</li>
+                    <li class="list-group-item"> 🎯 <strong>Web Dev:</strong>MERN,React.js,HTML,</li>
+                    <li class="list-group-item">CSS,Bootstrap, npm Dev, GitHub</li>
 
 
 
@@ -48,7 +47,7 @@ export class L_Panel extends Component{
                 </Card.Text>
               </Card.Body>
             </Card>
-          </div>
+
        </main>
     </body>
     );
